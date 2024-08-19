@@ -3,5 +3,5 @@ This repository contains my 6-month master's thesis project in the field of embe
 A baseline simple CNN model was designed as a foundational template using Keras and Google Colab for other frameworks to follow. This model architecture and configurations were replicated within all the frameworks ensuring consistency and comparability across different EdgeAI frameworks. Overall, the work concluded with the results from all five metrics and future work with the scope for improvements for case-to-case application scenarios. 
 <br/>
 <br/>
-**Repository Structure:**
+### Repository Structure
 This repository contains folders for each EdgeAI framework that has been implemented and tested. Each framework is organized into its own folder, and within these folders, you will find sub-folders and files necessary for deployment on a Microcontroller Unit (MCU).
