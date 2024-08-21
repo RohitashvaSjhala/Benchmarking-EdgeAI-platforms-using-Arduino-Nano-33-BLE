@@ -6,4 +6,4 @@ A baseline simple CNN model was designed as a foundational template using Keras 
 This repository contains folders for each EdgeAI framework that has been implemented and tested. Each framework is organized into its own folder, and within these folders, you will find sub-folders and files necessary for deployment on a Microcontroller Unit (MCU). 
 
 ### Deployment
-* Edge Impulse: The folder contains the source files of the trained model in the edge impulse with its parameters and weights. The .ino file is specific to the Arduino Nano 33 BLE board and is ready to be deployed while containing all the 
+* **Edge Impulse: The folder contains the source files of the trained model with its parameters and weights. The .ino file is specific to the Arduino Nano 33 BLE board and is ready to be deployed while containing all the functions necessary to perform inference.
