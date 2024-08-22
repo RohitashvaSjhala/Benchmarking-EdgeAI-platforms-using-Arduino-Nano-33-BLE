@@ -6,6 +6,7 @@ A baseline simple CNN model was designed as a foundational template using Keras 
 This repository contains folders for each EdgeAI framework that has been implemented and tested. Each framework is organized into its own folder, and within these folders, you will find sub-folders and files necessary for deployment on a Microcontroller Unit (MCU). 
 
 ### Deployment
+* **Baseline CNN:** It contains the baseline model developed with Keras and Google Colab to be followed by the other frameworks. 
 * **Edge Impulse:** The folder contains the source files of the trained model with its parameters and weights. The .ino file is specific to the Arduino Nano 33 BLE board and is ready to be deployed while containing all the functions necessary to perform inference.
 * **Edge-ML:** This folder contains the trained decision tree classifier from the Edge-ML framework. Although not part of my final evaluation because the framework is still in the beta version, I have included the model nonetheless for reference.
 * **Imagimob Studio:** It stores the trained model "TFKerasFullDataset_min_max.md" with corresponding code gen files (C/C++) for deployment. The .ino file contains all the functionality necessary to perform the inference on the hardware device.
